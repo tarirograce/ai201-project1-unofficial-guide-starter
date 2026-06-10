@@ -1,11 +1,10 @@
-sentence-transformers==3.4.1
-chromadb>=0.6.0
-groq==0.15.0
-python-dotenv==1.0.1
+# Core RAG stack for "The Unofficial Guide"
+sentence-transformers>=2.2.0   # all-MiniLM-L6-v2 embedding model
+chromadb>=0.4.0                 # persistent vector store
+groq>=0.11.0                    # Groq LLM API client (llama-3.3-70b-versatile)
+gradio>=6.9.0                   # web UI
+python-dotenv>=1.0.0            # load GROQ_API_KEY from .env
 
-# Query interface — add whichever you use for Milestone 5:
-# gradio>=6.9.0
-# streamlit>=1.40.0
-
-# Document ingestion — add if your documents/ folder contains .pdf files:
-# pdfplumber==0.11.4
+# Supporting libraries
+pandas>=2.0.0                   # tabular handling in evaluation
+numpy>=1.24.0                   # numeric arrays for embeddings

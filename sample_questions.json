@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the best dorm for first-year students?",
+    "expected": "Maple Hall is the most recommended dorm for first-year students, with larger rooms, study lounges on every floor, active RAs, and a short walk to the dining hall and library."
+  },
+  {
+    "question": "Where can I find a quiet place to study on campus?",
+    "expected": "The third and fourth floors of the Main Library are designated silent floors and are the quietest spots. The Law Library is also quiet, especially in the mornings."
+  },
+  {
+    "question": "How can I get downtown without a car?",
+    "expected": "Take the free Blue Line campus shuttle from the Student Union (every 20 minutes on weekdays), the city bus Route 12 (free for students with a validated ID), or bike the river path which takes about ten minutes."
+  },
+  {
+    "question": "Which dining hall has the best vegetarian options?",
+    "expected": "Riverside Dining Hall has the best vegetarian and vegan options, with a dedicated rotating plant-based station and a fresh salad bar."
+  },
+  {
+    "question": "What should I know before registering for classes?",
+    "expected": "Registration opens by class standing and popular classes fill fast, so log in when your slot opens. Meet your advisor early to lift the advising hold, prepare backup schedules, use waitlists, and take advantage of the two-week add/drop period."
+  }
+]

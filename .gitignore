@@ -1,20 +1,19 @@
-# API keys — never commit these
+# Secrets
 .env
 
 # Python
 __pycache__/
-*.py[cod]
-*.egg-info/
+*.pyc
 .venv/
 venv/
-env/
 
-# Jupyter
-.ipynb_checkpoints/
+# Generated vector store contents (keep the folder, ignore the data)
+chroma_db/*
+!chroma_db/.gitkeep
 
-# ChromaDB local storage
-chroma_db/
-chroma/
+# Generated cleaned documents (keep the folder, ignore the files)
+data/processed/*
+!data/processed/.gitkeep
 
-# macOS
-.DS_Store
+# Generated evaluation output
+evaluation_report.md
